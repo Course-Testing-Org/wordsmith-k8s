@@ -6,10 +6,10 @@ bases:
 images:
   - name: course-testing-org/wordsmith-api
     newName: ghcr.io/course-testing-org/wordsmith-api
-    newTag: stable-20230719-f8ca9b0
+    newTag: stable-20230719-5a05485
   - name: course-testing-org/wordsmith-web
     newName: ghcr.io/course-testing-org/wordsmith-web
-    newTag: stable-20230714-54a6571
+    newTag: stable-20230719-8d38f0f
 configMapGenerator:
   - name: db-schema
     files:
